@@ -1,7 +1,7 @@
 ORG 0x7C00  ; tells the assembler to do the addressing from this location
 BITS 16     ; 16 bits mode
 
-
+; qemu-system-i386 -fda build/main.img
 
 main:
     mov ax, 0
